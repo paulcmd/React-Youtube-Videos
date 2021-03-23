@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const KEY = AIzaSyBfB5VL8gxKXPdIPkpw9SiCoWroK95WRH4
+const KEY = 'AIzaSyBfB5VL8gxKXPdIPkpw9SiCoWroK95WRH4'
 
 
 export default axios.create({
@@ -9,6 +9,7 @@ export default axios.create({
     params: {
         part: 'snippet',
         maxResults: 5,
+        type: 'video',
         key: KEY
     }
 })
