@@ -4,13 +4,15 @@ const VideoItem = (props) => {
 
     const { title, thumbnails, description } = props.video.snippet
 
-    return <div>
-        <img
+    return <div className="item">
+        <img className="ui image"
             src={thumbnails.medium.url}
             alt={description}
         />
-        <div>
-            <h2>{title}</h2>
+        <div className="content">
+            <div className="header">
+                {title}
+            </div>
         </div>
     </div>
 }
