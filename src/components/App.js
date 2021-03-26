@@ -20,10 +20,7 @@ class App extends React.Component {
         console.log(response.data.items)
     }
 
-    onVideoSelect = (video) => {
-        console.log(`${video.snippet.channelTitle} : `, video)
-        this.setState({ selectedVideo : video })
-    }
+   
 
     render() {
         return (
