@@ -10,7 +10,7 @@ const VideoList = ({videos, onVideoSelect}) => {
         />
     })
 
-    return <div className="ui relaxed divided list" >
+    return <div className="ui segment relaxed divided list" >
         {renderedList}
     </div>
 }
