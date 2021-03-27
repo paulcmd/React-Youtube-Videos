@@ -3,7 +3,7 @@ import React from 'react'
 class SearchBar extends React.Component {
 
     state = {
-        searchTerm: 'cars'
+        searchTerm: ''
     }
 
     onInputChange = (e) => {
